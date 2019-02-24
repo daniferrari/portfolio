@@ -17,5 +17,28 @@
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
   <app-header></app-header>
+  <h1>
+    My Contacts
+    </h1>
+    <div>
+    <table  class="table">
+    <thead>
+    <tr>
+    <th float-right>First Name</th>
+    <th>Last Name</th>
+    <th>Phone</th>
+    <th>Email</th>
+    <th>Address</th>
+    </tr>
+    </thead>
+    <tr *ngFor="let contact of contacts">
+        <td>  </td>
+        <td>  </td>
+        <td>  </td>
+        <td>  </td>
+        <td>  </td>
+    </tr>
+    </table>
+    </div>
 </ul>
 
