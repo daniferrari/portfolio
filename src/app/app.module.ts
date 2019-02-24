@@ -7,10 +7,12 @@ import { AppRoutingModule } from './app-routing.module';
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
